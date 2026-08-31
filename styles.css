@@ -3,7 +3,7 @@
 :root {
   --ink: #17212b;
   --muted: #65727e;
-  --paper: #f7f5f0;
+  --paper: #ffffff;
   --surface: #ffffff;
   --accent: #c66b4b;
   --accent-dark: #9f4f35;
@@ -85,6 +85,10 @@ section {
   width: min(calc(100% - 2rem), 1080px);
   padding: 4.5rem 0;
   margin: 0 auto;
+}
+
+section + section {
+  padding-top: 1.5rem;
 }
 
 .intro {
