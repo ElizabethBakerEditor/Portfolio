@@ -91,6 +91,10 @@ section + section {
   padding-top: 1.5rem;
 }
 
+section:has(+ section) {
+  padding-bottom: 1.5rem;
+}
+
 .intro {
   padding: clamp(3rem, 7vw, 6rem) 1.5rem;
   border-bottom: 1px solid var(--line);
