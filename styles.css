@@ -104,8 +104,21 @@ h2 { margin: 0 0 1.25rem; font-size: clamp(1.9rem, 4vw, 3rem); }
 h3 { margin: 0 0 .65rem; font-size: 1.4rem; }
 
 .intro h1 { color: var(--ink); }
-.intro h2 { margin: 0 0 1rem; color: var(--accent); font-family: 'DM Sans', sans-serif; font-size: 1rem; letter-spacing: .18em; text-transform: uppercase; }
-.intro p { max-width: 650px; margin: 0 auto; color: var(--muted); font-size: 1.1rem; }
+.intro h2 {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.intro p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
 
 p { margin: 0 0 1.15rem; }
 a { color: var(--accent-dark); font-weight: 600; }
