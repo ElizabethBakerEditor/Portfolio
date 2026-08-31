@@ -83,12 +83,8 @@ nav a:hover, nav a:focus-visible {
 
 section {
   width: min(calc(100% - 2rem), 1080px);
-  padding: 4.5rem 0;
+  padding: 3rem 0;
   margin: 0 auto;
-}
-
-section + section {
-  padding-top: 1.5rem;
 }
 
 .intro {
@@ -181,7 +177,5 @@ footer p { margin: 0; font-size: .85rem; }
   body { font-size: 16px; }
   nav ul { align-items: stretch; gap: .15rem; padding: .6rem .5rem; }
   nav a { padding: .45rem .55rem; font-size: .78rem; text-align: center; }
-  section { padding: 3rem 0; }
-  section + section { padding-top: 1rem; }
   .portfolio-item, .editing-sample { padding: 1.25rem; }
 }
