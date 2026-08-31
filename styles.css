@@ -151,7 +151,7 @@ li { margin: .5rem 0; }
 footer {
   margin-top: 2rem;
   padding: 2rem 1rem;
-  background: var(--ink) !important;
+  background: var(--ink);
   color: #cbd3d8;
   text-align: center;
 }
@@ -161,7 +161,7 @@ footer p { margin: 0; font-size: .85rem; }
 @media (max-width: 650px) {
   body { font-size: 16px; }
   nav ul { align-items: stretch; gap: .15rem; padding: .6rem .5rem; }
-  nav a { padding: .45rem .55rem; font-size: .78rem !important; text-align: center; }
+  nav a { padding: .45rem .55rem; font-size: .78rem; text-align: center; }
   section { padding: 3rem 0; }
   .portfolio-item, .editing-sample { padding: 1.25rem; }
 }
