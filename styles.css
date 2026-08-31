@@ -124,7 +124,7 @@ p { margin: 0 0 1.15rem; }
 a { color: var(--accent-dark); font-weight: 600; }
 a:hover { color: var(--accent); }
 
-section > h2 { position: relative; padding-bottom: .75rem; }
+section > h2 { position: relative; }
 section > h2::after {
   display: block;
   width: 3.5rem;
