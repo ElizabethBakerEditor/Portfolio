@@ -88,11 +88,7 @@ section {
 }
 
 section + section {
-  padding-top: 1.5rem;
-}
-
-section:has(+ section) {
-  padding-bottom: 1.5rem;
+  margin-top: -6rem;
 }
 
 .intro {
@@ -186,5 +182,6 @@ footer p { margin: 0; font-size: .85rem; }
   nav ul { align-items: stretch; gap: .15rem; padding: .6rem .5rem; }
   nav a { padding: .45rem .55rem; font-size: .78rem; text-align: center; }
   section { padding: 3rem 0; }
+  section + section { margin-top: -3rem; }
   .portfolio-item, .editing-sample { padding: 1.25rem; }
 }
